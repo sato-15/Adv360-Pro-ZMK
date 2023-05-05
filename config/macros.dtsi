@@ -1,3 +1,9 @@
+macro_macro_ime: macro_macro_ime{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_ime";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp SPACE>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
